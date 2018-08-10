@@ -1,12 +1,8 @@
 {
   "assetsByChunkName": {
-    "path---second-post": [
-      "path---second-post-6857a9b6673fee77cef4.js",
-      "path---second-post-6857a9b6673fee77cef4.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-6aff9a034ae5923dad40.js",
-      "component---src-pages-index-js-6aff9a034ae5923dad40.js.map"
+      "component---src-pages-index-js-95dad75c8ae2c2c99751.js",
+      "component---src-pages-index-js-95dad75c8ae2c2c99751.js.map"
     ],
     "path---": [
       "path----bcabd757b3a04116f010.js",
@@ -16,21 +12,21 @@
       "path---test-a0e39f21c11f6a62c5ab.js",
       "path---test-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---first-post": [
-      "path---first-post-e686a43ac551e755acec.js",
-      "path---first-post-e686a43ac551e755acec.js.map"
-    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-d55867990771e7dca01f.js",
       "component---src-layouts-index-js-d55867990771e7dca01f.js.map"
+    ],
+    "path---8-6-18": [
+      "path---8-6-18-6492c3d9b10778a1875b.js",
+      "path---8-6-18-6492c3d9b10778a1875b.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-2a8a45374f6222a0cb77.js",
-      "path---index-2a8a45374f6222a0cb77.js.map"
+      "path---index-04607411b4a3ff1fe8d9.js",
+      "path---index-04607411b4a3ff1fe8d9.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -48,14 +44,22 @@
       "component---src-templates-post-js-192bd221c285565eb939.js",
       "component---src-templates-post-js-192bd221c285565eb939.js.map"
     ],
+    "path---8-5-18": [
+      "path---8-5-18-705047f5bb5343746612.js",
+      "path---8-5-18-705047f5bb5343746612.js.map"
+    ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-325a7f5f92c4e8c1a68c.js",
       "component---src-pages-page-2-js-325a7f5f92c4e8c1a68c.js.map"
     ],
+    "path---8-9-18": [
+      "path---8-9-18-455ff152a4a3d84ae52d.js",
+      "path---8-9-18-455ff152a4a3d84ae52d.js.map"
+    ],
     "app": [
-      "app-e611e7d35433587009e8.js",
+      "app-f7bcaaf178094ce97703.js",
       "build-js-styles.css",
-      "app-e611e7d35433587009e8.js.map",
+      "app-f7bcaaf178094ce97703.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
