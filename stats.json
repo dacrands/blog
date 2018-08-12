@@ -13,20 +13,24 @@
       "path---test-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-420f74c0c932dd99fd2a.js",
-      "component---src-layouts-index-js-420f74c0c932dd99fd2a.js.map"
+      "component---src-layouts-index-js-44903ff87ebf664dcd57.js",
+      "component---src-layouts-index-js-44903ff87ebf664dcd57.js.map"
     ],
     "path---8-6-18": [
       "path---8-6-18-6492c3d9b10778a1875b.js",
       "path---8-6-18-6492c3d9b10778a1875b.js.map"
+    ],
+    "path---8-11-18": [
+      "path---8-11-18-aae062ad3a89436f198d.js",
+      "path---8-11-18-aae062ad3a89436f198d.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-04607411b4a3ff1fe8d9.js",
-      "path---index-04607411b4a3ff1fe8d9.js.map"
+      "path---index-b876b56a82ab7737c98c.js",
+      "path---index-b876b56a82ab7737c98c.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -57,9 +61,9 @@
       "path---8-9-18-cb8c13fe6782066417f5.js.map"
     ],
     "app": [
-      "app-f7bcaaf178094ce97703.js",
+      "app-1efadb5619d890bc6786.js",
       "build-js-styles.css",
-      "app-f7bcaaf178094ce97703.js.map",
+      "app-1efadb5619d890bc6786.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
