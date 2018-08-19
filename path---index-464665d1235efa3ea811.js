@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{345:function(t,e){t.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{title:"Hello World!",path:"/8-5-18"}}},{node:{frontmatter:{title:"MIT 6.00.1x Course Review",path:"/8-13-18"}}},{node:{frontmatter:{title:"Learning to program",path:"/8-6-18"}}},{node:{frontmatter:{title:"Styled Components",path:"/8-9-18"}}},{node:{frontmatter:{title:"Revisiting Python Data Visualization",path:"/8-11-18"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-464665d1235efa3ea811.js.map
