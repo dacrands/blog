@@ -5,8 +5,8 @@
       "path---8-18-18-1077d3371177990cc7bf.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-482da30297a98fc42309.js",
-      "component---src-pages-index-js-482da30297a98fc42309.js.map"
+      "component---src-pages-index-js-45c060803a5ad86312a1.js",
+      "component---src-pages-index-js-45c060803a5ad86312a1.js.map"
     ],
     "path---blog": [
       "path---blog-17884ee77976da11806c.js",
@@ -16,9 +16,13 @@
       "path----bcabd757b3a04116f010.js",
       "path----bcabd757b3a04116f010.js.map"
     ],
-    "path---test": [
-      "path---test-a0e39f21c11f6a62c5ab.js",
-      "path---test-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-tag-js": [
+      "component---src-pages-tag-js-7377b6dcf6aa5e5c25fb.js",
+      "component---src-pages-tag-js-7377b6dcf6aa5e5c25fb.js.map"
+    ],
+    "path---tag": [
+      "path---tag-a0e39f21c11f6a62c5ab.js",
+      "path---tag-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-14441ab139ccbb1426fa.js",
@@ -61,17 +65,17 @@
       "path---8-5-18-2f8133838b691783917a.js.map"
     ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-62d3abf5b0841a785982.js",
-      "component---src-pages-blog-js-62d3abf5b0841a785982.js.map"
+      "component---src-pages-blog-js-fdb2e5e22bee397dc797.js",
+      "component---src-pages-blog-js-fdb2e5e22bee397dc797.js.map"
     ],
     "path---8-9-18": [
       "path---8-9-18-12684389d0c8dde5020e.js",
       "path---8-9-18-12684389d0c8dde5020e.js.map"
     ],
     "app": [
-      "app-7d64e70e9552814f9178.js",
+      "app-d79454e5542a45cbfe63.js",
       "build-js-styles.css",
-      "app-7d64e70e9552814f9178.js.map",
+      "app-d79454e5542a45cbfe63.js.map",
       "build-js-styles.css.map"
     ],
     "path---8-13-18": [
@@ -81,10 +85,6 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-test-js": [
-      "component---src-pages-test-js-7377b6dcf6aa5e5c25fb.js",
-      "component---src-pages-test-js-7377b6dcf6aa5e5c25fb.js.map"
     ]
   }
 }
