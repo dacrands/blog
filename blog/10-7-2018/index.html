@@ -1,0 +1,398 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/app.a2f933b7ab5f58f2ecfb.css">code[class*=language-],pre[class*=language-]{color:#657b83;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{background:#073642}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fdf6e3}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#93a1a1}.token.punctuation{color:#586e75}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#268bd2}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string,.token.url{color:#2aa198}.token.entity{color:#657b83;background:#eee8d5}.token.atrule,.token.attr-value,.token.keyword{color:#859900}.token.class-name,.token.function{color:#b58900}.token.important,.token.regex,.token.variable{color:#cb4b16}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><style data-href="/component---src-templates-blog-template-js.592af373a9de1595b330.css">@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:Open Sans,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}.content{max-width:500px}.navbar{background:#3150bf}.navbar a{display:block;margin:.5rem 1rem;color:#fefeff}.navbar ul{list-style:none;display:flex}.navbar li,.navbar ul{margin:0}.footer{background:#141519;padding:1rem;margin-top:1rem;color:#3150bf}.footer small{display:block;font-size:70%}.footer ul{list-style:none;margin:0}.footer li{margin-bottom:.5rem}.footer .citation{color:#3150bf;transition:all .2s ease}.footer .citation:hover{color:#fefeff}.footer__link{display:inline-block;color:#5f7ef0;text-decoration:none;transition:all .2s ease}.footer__link:hover{color:#fefeff}.header{padding:2rem}.header h1{color:#3150bf}.header p{margin-bottom:.25rem}.grid--aside{display:grid;grid-template-columns:220px 1fr;overflow:hidden}.pages{padding:0 2rem;display:flex;display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));grid-gap:20px}.pages__link{text-decoration:none;border:1px solid #dadada;padding:.5rem;color:rgba(0,0,0,.8);transition:all .2s ease;background:#3150bf;color:#fefeff}.pages__link small{color:#6e717e;color:#9baef5}.pages__link h3{margin-bottom:.25rem;color:#fefeff}.pages__link:hover{background:#132463}.pages__link-title{margin-bottom:1rem}.aside{background:#3150bf}.aside__nav{position:fixed;max-width:220px;padding:1rem;overflow-y:scroll;-webkit-overflow-scrolling:touch;max-height:100vh;color:#fefeff}.aside__nav-title{margin-bottom:2rem;white-space:nowrap;border-bottom:1px solid #132463;padding-bottom:.5rem;display:block;color:#fefeff;text-decoration:none}.aside__nav-title h2{margin-bottom:.35rem}.aside__nav-title small{line-height:100%}.aside__nav-title:hover h2{text-decoration:underline}.aside__nav-link{font-size:14px;line-height:110%;display:block;margin-bottom:2rem;color:#fefeff;text-decoration:none;font-weight:700}.aside__nav-link p{margin-bottom:.1rem}.aside__nav-link small{font-weight:400;color:#9baef5}.aside__nav-link:hover{text-decoration:underline}.aside__nav-link:hover small{color:#fefeff}.blog{max-width:600px;margin:0 auto;padding:0 1rem;font-family:Times New Roman,Times,serif}.blog h1,.blog h2{color:#3150bf}.blog h3{font-weight:400}.blog__header{padding:2rem 0}.blog__header h3{color:#5f7ef0;font-weight:400}@media (max-width:850px){.grid--aside{display:block}.aside__nav{position:relative;display:flex;overflow-y:auto;overflow-x:scroll;-webkit-overflow-scrolling:touch;max-width:100%}.aside__nav-title{margin-bottom:0;margin-right:2rem;align-self:center;border-bottom:none;border-right:1px solid #132463;padding-right:1rem}.aside__nav-link{display:inline-block;padding:1rem;margin-right:1rem;margin-bottom:0;min-width:200px}}</style><meta name="generator" content="Gatsby 2.0.76"/><title data-react-helmet="true"></title><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#042291"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-b49ae918b3a8e78bc7de.js"/><link as="script" rel="preload" href="/app-33a09fa39d4bb1a5da5e.js"/><link as="script" rel="preload" href="/webpack-runtime-a4244e6e825365933aae.js"/><link as="fetch" rel="preload" href="/static/d/637/path---blog-10-7-2018-645-708-Qdbc61worNBzGxBg9rqVNWulucQ.json" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div><main class="grid--aside"><aside class="aside"><nav class="aside__nav"><a class="aside__nav-title" href="/"><h2>Blog</h2><small>by David Crandall</small></a><a class="aside__nav-link" href="/blog/1-6-2019"><p>Connect your SPA with your Back-end</p><small>January 06, 2019</small></a><a class="aside__nav-link" href="/blog/11-21-18"><p>How NOT to Create a Dropbox Clone</p><small>November 21, 2018</small></a><a aria-current="page" class="aside__nav-link" style="color:#a8b1ce" href="/blog/10-7-2018"><p>Hide Your Keys, Folks (Part II)</p><small>October 07, 2018</small></a><a class="aside__nav-link" href="/blog/10-6-18"><p>Downloading SVGs FAST with Python</p><small>October 06, 2018</small></a><a class="aside__nav-link" href="/blog/9-27-18"><p>Hide your keys, folks (Part I)</p><small>September 27, 2018</small></a><a class="aside__nav-link" href="/blog/8-24-18"><p>NeXT Logo in HTML and CSS</p><small>August 24, 2018</small></a><a class="aside__nav-link" href="/blog/8-18-18"><p>Revisiting Python Data Analysis: Part 2</p><small>August 18, 2018</small></a><a class="aside__nav-link" href="/blog/8-13-18"><p>MIT 6.00.1x Course Review</p><small>August 13, 2018</small></a><a class="aside__nav-link" href="/blog/8-11-18"><p>Revisiting Python Data Visualizationd</p><small>August 11, 2018</small></a><a class="aside__nav-link" href="/blog/8-09-18"><p>Styled Components</p><small>August 09, 2018</small></a><a class="aside__nav-link" href="/blog/8-06-18"><p>Learning to program</p><small>August 06, 2018</small></a><a class="aside__nav-link" href="/blog/8-05-18"><p>Hello World!</p><small>August 05, 2018</small></a></nav></aside><article class="blog"><header class="blog__header"><div class="container"><h1>Hide Your Keys, Folks (Part II)</h1><h3>October 07, 2018</h3></div></header><div class="blog__post"><div class="blog__post-content"><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/WinonaSavingsBankVault.JPG/1024px-WinonaSavingsBankVault.JPG" alt="Bank Vault"></p>
+<p><em>(This blog post is a work in progress.)</em></p>
+<p>In the <a href="https://dacrands.github.io/9-27-18">last installment</a>, we discussed some ways in which front-end developers can protect their API-keys. We came to the conclusion that to truly protect your API-keys, you will need a designated back-end — a proxy server — to handle your API calls.</p>
+<p>In this example we will be using <em>Flask</em> to create such an application, though the general concept can be easily applied by developers of any stack. The idea is that our front-end application will send a request to our <em>Flask</em> app. Then our app, based on the request from the client, will send a request to the API. In doing so, we no longer need an API-key to be present in the client request since it will be handled by our back-end.</p>
+<h2>Table of Contents</h2>
+<hr>
+<ul>
+<li>
+<p><a href="#prereq">Prerequisites</a></p>
+<!-- - [Git/Github](#git)   -->
+</li>
+<li><a href="#theApp">What we're making</a></li>
+<li>
+<p><a href="#env">Environments</a></p>
+<!-- - [Create an Environment](#createEnv) -->
+<!-- - [Activate an Environment](#activeEnv) -->
+</li>
+<li>
+<p><a href="#appItUp">App It Up</a></p>
+<!-- - [\__init__.py](#init) -->
+<!-- - [routes.py](#routesPy) -->
+<!-- - [run.py](#run) -->
+<!-- - [FLASK_APP](#flaskApp) -->
+</li>
+<li>
+<p><a href="#config">Configuration</a></p>
+<!-- - [config.py](#configPy) -->
+</li>
+<li>
+<p><a href="#requests">Requests</a></p>
+<!-- - [Let's make a request](#makeRequest) -->
+</li>
+<li><a href="#requests">Routes</a></li>
+<li>
+<p><a href="#hosting">Hosting</a></p>
+<!-- - [Download Heroku](#heroku) -->
+</li>
+</ul>
+<p><a id="prereq"></a></p>
+<h2>Prerequisites</h2>
+<hr>
+<ul>
+<li>an API you're interested in and any necessary keys. <a href="https://apilist.fun/">Here is a big list of APIs</a></li>
+<li>Basic command-line skills</li>
+<li>Git/Github</li>
+</ul>
+<p>My goal is to make this tutorial accessible to front-end developers with limited back-end and/or Python experience. Luckily, Python syntax is very semantic and intuitive, so hopefully developers from other stacks will have no problem following along with the examples used in this post.</p>
+<p>If you're a back-end developer, this is not for you. You know what to do already. This is for our beginner front-end developers who want to hide their keys, nothing more.</p>
+<p><a id="git"></a></p>
+<h3>Git/Github</h3>
+<p>At some point in this project, you will need to create a git repo. At what point in the application you integrate version-control is up to you, but having basic git skills is needed for when we host the finished-product on <em>Heroku.</em></p>
+<p><a id="theApp"></a></p>
+<h2>What We're Making</h2>
+<hr>
+<p><img src="https://i.imgur.com/8RAVXwH.png" alt="Imgur"></p>
+<p>Here is <a href="https://github.com/dacrands/flask-blog-tutorial">Github repo</a> for what we're building.</p>
+<p>We're are building a very minimal Flask app. We don't need a database or authentication, we just need a server to make requests to our API and pass JSON to our React/Redux app. There will be vulnerabilities in this app, but your API-key will be safe and others will take note of your effort to keep it secret (hopefully).</p>
+<p>If you're looking for an in-depth introduction to Flask, Miguel Ginberg's <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">Flask mega tutorial</a> is excellent.</p>
+<p><a id="env"></a></p>
+<h2>Environments</h2>
+<hr>
+<p>For any Python project, regardless of it's size or complexity, it's a good idea to create a virtual environment. This ensures that as libraries update and backwards-compatability becomes an issue, your app will still work.</p>
+<p><a id="createEnv"></a></p>
+<h3>Create an Environment</h3>
+<p>When it comes to Python, I'm an  <a href="https://www.anaconda.com/">Anaconda</a> person. Anconda is basically Python but it comes bundled with a lot of data-science libraries and other features like <a href="http://jupyter.org/">Jupyter Notebooks</a>. I suggest you give it a try. </p>
+<p>Find the <a href="https://www.anaconda.com/download">download instructions</a> for your OS and install Anaconda. If you don't use Anaconda, here are the instructions for <a href="https://packaging.python.org/guides/installing-using-pip-and-virtualenv/">creating a virtualenv with pip</a>. We will only being using <code class="language-text">conda</code>, the Anaconda CLI, for creating our environment and downloading <code class="language-text">pip</code>. After that, we will use <code class="language-text">pip</code> for everything else.</p>
+<p>Now that that's out of the way, go ahead and create an environment for your Flask app using <code class="language-text">conda</code>:</p>
+<div class="gatsby-highlight" data-language="commandline"><pre class="language-commandline"><code class="language-commandline">C:\&gt; conda create --name flaskenv</code></pre></div>
+<br>
+<p>This will create a virtual environment named <code class="language-text">flaskenv</code>.
+To see a list of your virtual environments, run the following:</p>
+<div class="gatsby-highlight" data-language="commandline"><pre class="language-commandline"><code class="language-commandline">C:\&gt; conda info --env</code></pre></div>
+<br>
+<p>This will print a list of your environments to the console. Learn more about <a href="https://conda.io/docs/user-guide/tasks/manage-environments.html">managing environments with conda</a>.</p>
+<p><a id="activeEnv"></a></p>
+<h3>Activating an Environment</h3>
+<p>I will demonstrate how to activate a Python environment on a Windows OS, simply because Windows users have it hard enough as it is.</p>
+<p>I love <em>PowerShell,</em> but when it comes to Python virtual-environments you'll want to use the command prompt. We have a lot to cover in this post, so I won't go in-depth as to why we are using the latter versus the former, though I encourage you to play around with both options to discover the answer organically.</p>
+<div class="gatsby-highlight" data-language="commandline"><pre class="language-commandline"><code class="language-commandline">C:\&gt; activate flaskenv
+(flaskenv) C:\&gt; </code></pre></div>
+<br>
+<h3>pip</h3>
+<p>Once your environment is activated, you can start installing your packages. The first package you will need is <code class="language-text">pip</code>, as this is how we will be downloading our packages. I know this may appear a bit strange to download a package-manager inside a package-manager, but it demonstrates the flexibility of using <code class="language-text">conda</code>.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\&gt; conda install pip</code></pre></div>
+<br>
+<p>Now we can use <code class="language-text">pip</code> to install our packages, but always make sure your environment is active before doing so. If your environment is not active, not only will you be downloading all of those packages globally on your machine, but you will not be able to save the packages you use to the <em>requirements.txt</em> file. The <em>requirements.txt</em> is Flask's version of <em>package.json</em>, i.e., a list of your applications dependencies. </p>
+<p>Once you install <code class="language-text">pip</code>, you can install <code class="language-text">flask</code> using <code class="language-text">pip</code>.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\&gt; pip install flask</code></pre></div>
+<br>
+<h3>requirements.txt</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt; pip freeze &gt; requirements.txt</code></pre></div>
+<br>
+<p>Now you can open <em>requirements.txt</em> and view your app's dependencies. </p>
+<p>Be sure to run  <code class="language-text">pip freeze &gt; requirements.txt</code> whenever you add a new package.</p>
+<p><a id="appItUp"></a></p>
+<h2>App It Up</h2>
+<hr>
+<p>Create a new directory <em>api-app</em> with the following structure:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">api-app/
+  app/
+    __init__.py
+    routes.py
+  run.py</code></pre></div>
+<br>
+<p><a id="init"></a></p>
+<h3>__init__.py</h3>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> flask <span class="token keyword">import</span> Flask
+
+app <span class="token operator">=</span> Flask<span class="token punctuation">(</span>__name__<span class="token punctuation">)</span></code></pre></div>
+<br>
+<p>If you'd like to learn more about Python class and OOP, <a href="https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/">this article</a> by Jeff Knupp is a good start.</p>
+<p>Here we are assigning an instance of the <code class="language-text">Flask</code> class to the variable <code class="language-text">app</code>. As your app becomes more complex, you will pass this class instance to other libraries. For example:</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> flask <span class="token keyword">import</span> Flask
+<span class="token keyword">from</span> flask_sqlalchemy <span class="token keyword">import</span> SQLAlchemy
+
+app <span class="token operator">=</span> Flask<span class="token punctuation">(</span>__name__<span class="token punctuation">)</span>
+db <span class="token operator">=</span> SQLAlchemy<span class="token punctuation">(</span>app<span class="token punctuation">)</span></code></pre></div>
+<p><em>Note: This example is not part of this project.</em>
+<br></p>
+<p>This is how inheritance works in Python. The SQLAlchemy class (the child class) instance inherits <code class="language-text">app</code> (the parent class) — this provides the child class with the attributes and methods of the parent class.</p>
+<p>Passing <code class="language-text">__name__</code> to <code class="language-text">Flask</code> tells Python the proper way to execute the file. This has to do with how Python executes programs. For more information, you may reference <a href="https://stackoverflow.com/questions/419163/what-does-if-name-main-do">this stackoverflow post</a>.</p>
+<p><a id="routesPy"></a></p>
+<h3>routes.py</h3>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> app <span class="token keyword">import</span> app
+
+@app<span class="token punctuation">.</span>route<span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span>
+<span class="token keyword">def</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> <span class="token string">'Hello, World!'</span></code></pre></div>
+<br>
+<p>For JavaScript developers this syntax may look a bit strange. First, <code class="language-text">def index()</code> defines a funtion named index. Second, <code class="language-text">@app.route(&#39;/&#39;)</code> is what's known as a <a href="https://www.thecodeship.com/patterns/guide-to-python-function-decorators/">Python decorator</a>,
+which is sort of like a callback function. To clarify things, let's translate this to Express, a popular NodeJS web framework:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'hello world'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<br>
+<p>Both of these apps are doing the same thing. In Python, <code class="language-text">@</code> before a function name makes that function a decorator. Decorators, a higer-order function, are followed by a function, which is passed as an argument to the decorator.</p>
+<p>Now that we have a route created, we can import our routes into our <em>__init__.py</em> file.</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># app/__init__.py</span>
+<span class="token keyword">from</span> flask <span class="token keyword">import</span> Flask
+
+app <span class="token operator">=</span> Flask<span class="token punctuation">(</span>__name__<span class="token punctuation">)</span>
+
+<span class="token keyword">from</span> app <span class="token keyword">import</span> routes</code></pre></div>
+<br>
+<p>We place the routes import at the bottom to avoid what's known as a <em>circular dependency</em> — you can learn more about this issue <a href="https://stackabuse.com/python-circular-imports/">here</a>.</p>
+<p><a id="run"></a></p>
+<h3>run.py</h3>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> app <span class="token keyword">import</span> app</code></pre></div>
+<br>
+<p>That's all the file requires. To clarify,  <em>app</em> is the Flask instance we created in <em>__init__.py</em>, and it is a member of the <em>app</em> package. The <em>app</em> package refers to the <em>/app</em> folder in our directory, thus why in our <em>__init__.py</em> file we are able to import our <em>routes</em> from <em>app</em>.</p>
+<!-- ```
+/app
+  routes.py
+``` -->
+<!-- <br> -->
+<p><a id="flaskApp"></a></p>
+<h3>FLASK_APP</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt;set FLASK_APP=run.py</code></pre></div>
+<p>Flask will look for an environment <code class="language-text">FLASK_APP</code> set to, in this case, <em>run.py</em>. This will instruct Flask on the proper way to import our application.</p>
+<h3>Run it!</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt;flask run</code></pre></div>
+<br>
+<p>If everything goes smoothly, you can visit your app at <code class="language-text">http://127:0.0.0.1:5000/</code> and hopefully see "Hello, World" in the browser.</p>
+<p><a id="config"></a></p>
+<h2>Configuration</h2>
+<hr>
+<p>We are going to add a <em>config.py</em> file to our project. This is where the developer can define some variables that will be used throughout the application. It's a good place to create variables that the developer wants to keep secret, such as API-keys.</p>
+<p>Once you add the <em>config.py</em> file, your project structure should look something like this:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">api-app/
+  app/
+    __init__.py
+    routes.py
+  run.py
+  config.py</code></pre></div>
+<br>
+<p>Once we create our <em>config.py</em>, we need to tell our <em>app</em> to use it. Here config is referencing our file <em>config.py</em> and not an installed library.</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># app/__init__.py</span>
+<span class="token keyword">from</span> flask <span class="token keyword">import</span> Flask
+<span class="token keyword">from</span> config <span class="token keyword">import</span> Config
+
+app <span class="token operator">=</span> Flask<span class="token punctuation">(</span>__name__<span class="token punctuation">)</span>
+app<span class="token punctuation">.</span>config<span class="token punctuation">.</span>from_object<span class="token punctuation">(</span>Config<span class="token punctuation">)</span>
+
+<span class="token keyword">from</span> app <span class="token keyword">import</span> routes</code></pre></div>
+<br>
+<p><a id="configPy"></a></p>
+<h3>config.py</h3>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># app/config.py</span>
+<span class="token keyword">import</span> os
+
+<span class="token keyword">class</span> <span class="token class-name">Config</span><span class="token punctuation">(</span><span class="token builtin">object</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  API_KEY <span class="token operator">=</span> os<span class="token punctuation">.</span>environ<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'API_KEY'</span><span class="token punctuation">)</span> <span class="token operator">or</span> <span class="token string">'nice-try'</span>  </code></pre></div>
+<br>
+<p>Recall in the first post when we used <code class="language-text">process.env.API_KEY</code> to keep the API out of version-control? Well, <code class="language-text">os.environ.get(&#39;API_KEY&#39;)</code> is doing the same thing. The configuration object will check to see if the environment variable <code class="language-text">API_KEY</code> exists, if it doesn't we provide a sarcastic fallback.</p>
+<p>As a reminder, you set environment variables like this:</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># Bash</span>
+$ <span class="token function">export</span> API_KEY<span class="token operator">=</span>someKey</code></pre></div>
+<div class="gatsby-highlight" data-language="commandline"><pre class="language-commandline"><code class="language-commandline">:: windows
+(flaskenv) C:\api-app\&gt; set API_KEY=someKey</code></pre></div>
+<br>
+<p>As I mentioned this app is minimal, thus our <em>config.py</em> only contains one <em>key</em>. Yes, a <em>key</em>. For JavaScript developers, you can think of our configuration object as a JS-object — a collection of <em>key</em>, <em>value</em> pairings. </p>
+<p>For example, accessing the <code class="language-text">API_KEY</code> defined in our <em>config.py</em> file will look something like this:</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> app <span class="token keyword">import</span> app
+
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+API_KEY <span class="token operator">=</span> app<span class="token punctuation">.</span>config<span class="token punctuation">[</span><span class="token string">'API_KEY'</span><span class="token punctuation">]</span></code></pre></div>
+<br>
+<p>I hope it's becoming clearer what is taking place in our <em>__init__.py</em> file. If not, there is no issue with treating this application as a bit of a black-box while you continue learning. I made it made it clear the purpose of this application is hiding your API-key from wrong-doers. For front-end developers with no interest in learning Python, not having a deep-understanding of Python modules is okay. In other words, this blog post is getting quite lengthy and I don't have time to elaborate on the nuances of Python here.</p>
+<p><a id="requests"></a></p>
+<h2>Requests</h2>
+<hr>
+<p>Now that our basic Flask app is in place, we can begin creating the routes our front-end will access. For this tutorial we will only create one route, though the logic is easily replicable for additional routes.</p>
+<p>To access the API, we will use the Python's <code class="language-text">requests</code> library. </p>
+<p>Run the following in your terminal:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt; pip install requests</code></pre></div>
+<br>
+<p><a id="makeRequest"></a></p>
+<h3>Lets make a request</h3>
+<p>Close your app if it's running, and enter <code class="language-text">python</code> in your terminal. This will activate the Python command-line, which is where we'll explore the <code class="language-text">requests</code> library.</p>
+<div class="gatsby-highlight" data-language="commandline"><pre class="language-commandline"><code class="language-commandline">(flaskenv) C:\api-app\&gt;python
+Python 3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 11:57:41) 
+[MSC v.1900 64 bit (AMD64)] on win32
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt;</code></pre></div>
+<p><em>To exit the Python terminal,  enter</em> <code class="language-text">quit()</code><em>, because</em> <code class="language-text">ctrl-c</code> <em>won't do it.</em></p>
+<p>For this example, let's use an API that doesn't require a key. We will use the <a href="https://iextrading.com/developer/docs/">IEX API</a>, a free stock API.</p>
+<p><strong>Copy this URL:</strong> <code class="language-text">https://api.iextrading.com/1.0/stock/market/batch?symbols=fb,f&amp;types=quote,news</code></p>
+<p>Here <code class="language-text">fb</code> and <code class="language-text">f</code> are ticker symbols for Facebook and Ford, respectively. Even if you pass invalid symbol parameters (i.e., ticker symbols that don't exist), the API response will still return data for valid queries, which is really nice.</p>
+<p>Let's make our first request. Enter the following in your Python terminal:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&gt;&gt;&gt;import requests
+&gt;&gt;&gt;res = requests.get(&#39;https://api.iextrading.com/1.0/stock/market/batch?symbols=fb,asdasdasd,f&amp;types=quote,news&#39;)</code></pre></div>
+<br>
+<p><code class="language-text">requests.get()</code> will make a <em>GET</em> request to the passed URL and return a <code class="language-text">&lt;Response&gt;</code> object. This object will have attributes expected in an HTTP response.</p>
+<p>For example, let's make sure the request was succcessful:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&gt;&gt;&gt; res.status_code
+200</code></pre></div>
+<br>
+<p>If everything goes well, we get the glorious status code of <code class="language-text">200</code>.</p>
+<p>Since we know our request was successful, let's take a look at the data:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&gt;&gt;&gt; resJson = res.json()
+&gt;&gt;&gt; resJson
+{&#39;FB&#39;: {&#39;quote&#39;: {&#39;symbol&#39;: &#39;FB&#39;,&#39;companyName&#39;: &#39;Facebook Inc.&#39;&#39;primaryExchange&#39;: &#39;Nasdaq Global Select&#39; &#39;sector&#39;:
+...</code></pre></div>
+<br>
+<p>Sorry for the console dump, but you get a sense of the data. By calling <code class="language-text">res.json()</code> we can now index our data, so let's get some data that's a bit more managable:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&gt;&gt;&gt; resJson[&#39;FB&#39;][&#39;quote&#39;][&#39;open&#39;]
+145.83</code></pre></div>
+<br>
+<p>I encourage you to play around a bit with the <code class="language-text">requests</code> library. Otherwise, let's get back to the app.</p>
+<h2>Routes</h2>
+<hr>
+<p>Make the following modifications to <em>app/routes.py</em>:</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> app <span class="token keyword">import</span> app
+<span class="token keyword">from</span> flask <span class="token keyword">import</span> jsonify
+<span class="token keyword">import</span> requests
+
+@app<span class="token punctuation">.</span>route<span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span>
+<span class="token keyword">def</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    res <span class="token operator">=</span> requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span>
+        <span class="token string">'https://api.your-api.com/something.json?api-key={0}'</span>
+        <span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>app<span class="token punctuation">.</span>config<span class="token punctuation">[</span><span class="token string">'API_KEY'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    
+    <span class="token keyword">if</span> res<span class="token punctuation">.</span>status_code <span class="token operator">!=</span> <span class="token number">200</span><span class="token punctuation">:</span>
+        errData <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'status'</span><span class="token punctuation">:</span> res<span class="token punctuation">.</span>status_code<span class="token punctuation">,</span> <span class="token string">'error'</span><span class="token punctuation">:</span> <span class="token string">'There was an error'</span><span class="token punctuation">}</span>
+        <span class="token keyword">return</span> jsonify<span class="token punctuation">(</span>errData<span class="token punctuation">)</span><span class="token punctuation">,</span> res<span class="token punctuation">.</span>status_code
+
+    apiData <span class="token operator">=</span> jsonify<span class="token punctuation">(</span>res<span class="token punctuation">.</span>json<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> apiData</code></pre></div>
+<br>
+<p>As you can see, we pass our <code class="language-text">res.json()</code> to <code class="language-text">jsonify()</code>, which is imported from <code class="language-text">flask</code>. This is because <code class="language-text">res.json()</code> does not provide the encoding we need. By passing our data to <code class="language-text">jsonify</code>, we now get a flask <em>Response</em> object that will properly serialize our data as <em>application/json</em> mimetype.</p>
+<p>Visit <code class="language-text">http://localhost:5000</code> and you should see a whole bunch of data. If you use <em>Chrome,</em> <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en">download JSON view</a>. <em>JSON view</em> will format your JSON data so it doesn't appear as one big mess in your browser.</p>
+<p>Once you download <em>JSON view,</em> you should see something like this when you access the route:</p>
+<p><img src="https://i.imgur.com/KSS78J5l.jpg" alt="JSON view example"></p>
+<p>Now what you see in the browser when you visit <code class="language-text">localhost:5000</code> should look <strong>exactly</strong> the same as when you place the actual API URL in the browser. The primary difference, of course, is now your API-key will not appear in the response:</p>
+<p><img src="https://i.imgur.com/4jtwzwdl.jpg" alt="Example of response with no API-key"></p>
+<!-- ### More routes -->
+<h3>Development</h3>
+<p>When developing, the only thing you need to do is make sure your front-end app and back-end app are listening on different ports. For example, your front-end app will run on port <code class="language-text">8000</code> and your back-end app will run on port <code class="language-text">5000</code>.</p>
+<p><a id="hosting"></a></p>
+<h2>Hosting</h2>
+<hr>
+<!-- Your basic application is now in place, so how do you use it? Well it needs to be hosted on a server. We are going to configure two servers: one for  **development** and one for **production**. The development server will be served locally on your machine &mdash; this is the server you will use while you build and debug your front-end application. The production will be hosted on [Heroku](https://www.heroku.com/), which offers both free and reasonably priced monthly plans ($7 a month).  -->
+<!-- Configuring the development server will be extremely easy. In fact, it's about one line from the console. The production server, however, will take a bit more effort. Heroku will provide you -->
+<!-- #### Run on a different machine
+
+Although you can run both your front-end and back-end on the same computer, you may not want to. Luckily, provided you have Python configured on another machien
+
+First, find our your IP-address. If you have *PowerShell,* run the following:
+
+```ps
+C:\> Get-NetIPAddress
+```
+<br>
+
+In the output, look for the IP-address starting with `192.168.0.xxx`
+
+Once you have your IP-address, run the following in the console.
+
+```commandline
+(flaskenv) C:\api-app\>flask run --host 0.0.0.0
+```
+
+<br>
+
+Now visit the following in the browser:
+```
+192.168.0.xxx:5000
+```
+<br>
+
+Okay, so what's the difference between this and simply running the 
+Now find another device with a web-browser and visit the same address. It still works! How cool is that? Now you can free up `localhost` to host your front-end application &mdash; just point it to API-calls to `192.168.0.xxx:5000`. -->
+<p>We will use <em>Heroku</em> to host our application since it is the most user-friendly option, however I suggest you check out <em>Digitalocean,</em> go through some tutorials, and challenge yourself a bit. Otherwise, <em>Heroku</em> is still an excellent and popular hosting service.</p>
+<p><a id="heroku"></a></p>
+<h3>Download Heroku</h3>
+<p>The first thing you need to do is <a href="https://devcenter.heroku.com/articles/heroku-cli">download the Heroku CLI</a> and go through the tutorial — this will take you through the proces of creating your first heroku app.</p>
+<p>We will be using Heroku's free plan, because it's free. The catch, however, is that your application will turn off after 30 minutes. If you decide to upgrade your plan to <code class="language-text">hobby</code>, it's only about $7 a month depending on your site's traffic.</p>
+<h3>Gunicorn</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt; pip install gunicorn</code></pre></div>
+<br>
+<p><a href="https://gunicorn.org/">Gunicorn</a> is a "Python WSGI HTTP Server for UNIX." Basically it will provide the production server for our application. </p>
+<h3>Procfile</h3>
+<p>We need to tell Heroku how to run our application — this is where the <em>Procfile</em> comes in. In the <em>Procfile</em> we will tell our <code class="language-text">dyno</code> (the server instance our application is running on) what it should do once the server starts up.</p>
+<p>Create a new file in the root-directory named <em>Procfile</em> — no extensions, simply <strong>Procfile</strong></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">api-app/
+  app/
+    __init__.py
+    routes.py
+  run.py
+  config.py
+  requirements.txt
+  Procfile</code></pre></div>
+<br>
+<p>Inside your <em>Procfile</em>, add the following code:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">web: gunicorn: run:app</code></pre></div>
+<br>
+<p>First, <code class="language-text">web</code> defines our process — this tells our <code class="language-text">dyno</code> that we want a web-server. Second, we pass <code class="language-text">run:app</code> to <code class="language-text">gunicorn</code> to start our server, where <code class="language-text">run</code> refers to <em>run.py</em> and <code class="language-text">app</code> refers to the <code class="language-text">app</code> we've created, i.e., the one imported in <em>run.py</em>.</p>
+<p>Now that our serve is in place, let's  configure our environment variables.</p>
+<h3>heroku config</h3>
+<p>You can configure environment variables in two ways with Heroku:</p>
+<ol>
+<li>Through the Heroku dashboard on their site</li>
+<li>Through the <code class="language-text">Heroku CLI</code></li>
+</ol>
+<p>Since this is a programming tutorial, we'll be using the CLI to configure the two environment variables used in this application. Also, Heroku has a really cool CLI.</p>
+<p>Run the following in the terminal:</p>
+<div class="gatsby-highlight" data-language="commandline"><pre class="language-commandline"><code class="language-commandline">(flaskenv) C:\api-app\&gt;heroku config:set FLASK__APP=run.py
+...
+(flaskenv) C:\api-app\&gt;heroku config:set API_KEY=&lt;YOUR_API_KEY&gt;</code></pre></div>
+<br>
+<h3>git push heroku master</h3>
+<p>Now comes the moment of truth — pushing your <code class="language-text">master</code> branch to Heroku. Two item checklist before pushing to Heroku:</p>
+<ol>
+<li>
+<p>Make sure all necessary packages are in your <em>requirements.txt</em> file:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt; pip freeze &gt; requirements.txt</code></pre></div>
+<br>
+</li>
+<li>Make sure your <code class="language-text">master</code> branch is up to date.</li>
+</ol>
+<p>And that's about it. If you've done those two things, then you're ready to push to Heroku:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt;git push heroku master</code></pre></div>
+<br>
+<p>You should see some command-line output, followed by <code class="language-text">Verifying deploy... done.</code></p>
+<p>Now open your app and see your data:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt;heroku open</code></pre></div>
+<br>
+<p>When the site opens in your browser, you should see your JSON.</p>
+<p>And that's about it. When you're ready to show your app to people you can upgrade your plan and the server won't turn off after thirty-minutes.</p>
+<h2>CORS</h2>
+<hr>
+<p>Now you are able to access your data by making fetch requests to your Heroku app. Sadly, as our app stands, other's will also be able to make ajax to your API. To prevent this from happening, we will be implementing CORS.</p>
+<p>Here is a definition from <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">MDN's article on CORS</a>:</p>
+<blockquote>
+<p>Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin. A web application makes a cross-origin HTTP request when it requests a resource that has a different origin (domain, protocol, and port) than its own origin.</p>
+</blockquote>
+<p>For our purposes, we will only be focusing one part of CORS — <code class="language-text">Access-Control-Allow-Origin</code></p>
+<p>The <code class="language-text">Access-Control-Allow-Origin</code> is configured in our Flask app and instructs the app which "origins" to provide access to. Here the origin is the domain of the client making the request. </p>
+<h3>Flask-CORS</h3>
+<p>We'll use <a href="https://flask-cors.readthedocs.io/en/latest/">Flask-CORS</a> to configure CORS for our Flask app.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(flaskenv) C:\api-app\&gt; pip install flask-cors
+...
+(flaskenv) C:\api-app\&gt; pip freeze &gt; requirements.txt</code></pre></div>
+<br>
+<p>Now make the following modifications to <em>app/__init__.py</em>, replacing the URLs in the <code class="language-text">origins</code> list with your own.</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> flask <span class="token keyword">import</span> Flask
+<span class="token keyword">from</span> flask_cors <span class="token keyword">import</span> CORS
+
+app <span class="token operator">=</span> Flask<span class="token punctuation">(</span>__name__<span class="token punctuation">)</span>
+CORS<span class="token punctuation">(</span>app<span class="token punctuation">,</span> origins<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"https://yoururl.com"</span><span class="token punctuation">,</span> <span class="token string">"https://www.yoururl.com"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token keyword">from</span> app <span class="token keyword">import</span> routes</code></pre></div>
+<br>
+<p>Now only the domain of your frontend application will be able to make ajax requests to your heroku app. <code class="language-text">origins</code> can be a string or a list, so configure it accordingly. Make sure you include <code class="language-text">https://</code> or <code class="language-text">http://</code> and include both your naked and <code class="language-text">www</code> domains, or else you will get a CORS error. There is a fair-amount to CORS, so I encourage you to do some more research on the topic.</p>
+<h2>Conclusion</h2>
+<p>By implementing an app such as this you demonstrate you're a front-end developer who is security conscious, which is important. This tutorial may have either scared you or excited you about backend workflows, but now your API is safe and that's important.   </p>
+<p>As for me, this blog took a very long time to write so I'm going to relax and work on a front-end blog.</p></div></div></article></main></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-template-js","jsonName":"blog-10-7-2018-645","path":"/blog/10-7-2018"};window.dataPath="637/path---blog-10-7-2018-645-708-Qdbc61worNBzGxBg9rqVNWulucQ";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.a2f933b7ab5f58f2ecfb.css","/app-33a09fa39d4bb1a5da5e.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js.592af373a9de1595b330.css","/component---src-templates-blog-template-js-b49ae918b3a8e78bc7de.js"],"component---src-pages-404-js":["/component---src-pages-404-js.592af373a9de1595b330.css","/component---src-pages-404-js-1fb420b300a0c29585be.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js.592af373a9de1595b330.css","/component---src-pages-blog-js-4ed8d51cafd1f7a7b7f3.js"],"component---src-pages-index-js":["/component---src-pages-index-js.592af373a9de1595b330.css","/component---src-pages-index-js-cf0bdf2eecdf497257d3.js"],"component---src-pages-success-js":["/component---src-pages-success-js.592af373a9de1595b330.css","/component---src-pages-success-js-f5cc883b03d8e61a5bea.js"],"pages-manifest":["/pages-manifest-ae1df9dae89657057688.js"]};/*]]>*/</script><script src="/webpack-runtime-a4244e6e825365933aae.js" async=""></script><script src="/app-33a09fa39d4bb1a5da5e.js" async=""></script><script src="/component---src-templates-blog-template-js-b49ae918b3a8e78bc7de.js" async=""></script></body></html>
